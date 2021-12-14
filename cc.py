@@ -90,7 +90,7 @@ def data():
                         res = list(map(str, temp))
                         win_win.append(res)
 
-                        print(nick + '--->>>' + str(res))
+                        print(nick + '<<<--->>>'+ cnt + '==='+ str(res))
                         # heroes_wr.append(substring)
                         elem += 1
                 else:
