@@ -197,7 +197,7 @@ var DotaBuffCP = {
       for (var i = 0; i < heroes.length; ++i) {
         if (_.isUndefined (win_rates[hid][i]) || _.isNull (win_rates[hid][i]))
           continue;
-        advantages[i] += parseFloat (win_rates[hid][i][0]);
+        advantages[i] += parseFloat ((win_rates[hid][i][0])*-1);
       }
 
     }
