@@ -1,7 +1,7 @@
 
 var DotaBuffCP = {
 
-  VERSION: '0.5.5',
+  VERSION: '1.0.0',
 
   initialized: false,
 //	инициализация функций лайнап и в целом
