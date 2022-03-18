@@ -208,7 +208,7 @@ var DotaBuffCP = {
 // создание ссылки
   generateLink: function () {
 
-    var link = '';
+    var link = '#';
 
     for (var i in this.lineup) {
       if (this.lineup[i] == -1)
